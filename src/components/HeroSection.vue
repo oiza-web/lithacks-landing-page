@@ -37,7 +37,7 @@ img{
 p{
   font-weight: 300;
   margin-top: 2em;
-  font-size: 1em;
+  font-size: .8em;
 }
 h3{
   font-weight: 400;
