@@ -35,8 +35,9 @@ img{
 }
 
 p{
-  font-weight: 100;
+  font-weight: 300;
   margin-top: 2em;
+  font-size: 1em;
 }
 h3{
   font-weight: 400;
