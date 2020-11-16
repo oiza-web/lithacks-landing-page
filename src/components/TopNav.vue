@@ -11,11 +11,11 @@
     </v-toolbar-side-icon>
     <v-spacer></v-spacer>
     <div>
-      <v-toolbar-items> 
-      <v-btn  to="#" text>Home</v-btn>
-      <v-btn to="#" text>About</v-btn>
-      <v-btn to="#" text>Contact</v-btn>
-      <v-btn to="#" text>Our Works</v-btn>
+      <v-toolbar-items > 
+      <v-btn class="case" to="#" text depressed>Home</v-btn>
+      <v-btn class="case" to="#" text depressed>About</v-btn>
+      <v-btn class="case" to="#" text>Contact<v-icon>mdi-call</v-icon></v-btn>
+      <v-btn class="case" to="#" text>Our Works</v-btn>
       </v-toolbar-items>
     </div>
     <v-spacer></v-spacer>
@@ -32,9 +32,12 @@
   export default {}
 </script>
 
-<style>
-v-btn{
-  font-size: 0.2em;
+<style scoped>
+
+.case{
+  text-transform: capitalize;
+  font-weight: 300 ;
+  letter-spacing: -1px;
 }
 
 </style>

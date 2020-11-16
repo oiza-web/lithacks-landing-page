@@ -2,16 +2,17 @@
   <v-footer color="#" class="vf"> 
     <div class="display">
       <div class="logo"> 
-      <v-img 
-      class="mx-2"
+      <v-img
+        class="logo-space"
         max-height="40"
         max-width="40"
-      src="../assets/light2.jpeg"
+        src="../assets/light2.jpeg"
     ></v-img>
     <v-icon color="rgb(229, 89, 53)">mdi-facebook</v-icon>
     <v-icon color='orange'>mdi-linkedin</v-icon>
     <v-icon color='orange'>mdi-instagram</v-icon>
     <v-icon color='orange'>mdi-twitter</v-icon>
+    <v-icon color='orange'>mdi-pinterest</v-icon>
     </div>
     <div class="about"> 
       <p>About Us</p>
@@ -19,13 +20,13 @@
       <p>Blog</p>
     </div>
     <div class="careers"> 
-      <p>About Us</p>
-      <p>Contact Us</p>
-      <p>Blog</p>
+      <p>Careers</p>
+      <p>Support</p>
+      <p>Private Policy</p>
     </div>
     <div class="button"> 
       <base-button></base-button><br>
-      <p class="copyright"><v-icon x-small>mdi-copyright</v-icon>  lithacks. All rights reserved</p>
+      <p class="copyright"><v-icon x-small>mdi-copyright</v-icon>lithacks. All rights reserved</p>
     </div>
     </div>
     
@@ -54,6 +55,7 @@ export default {
 .logo{
   margin-left: 4em;
   margin-top: 2em;
+  
 }
 
 .careers{
@@ -76,5 +78,9 @@ p{
 .vf{
   padding-bottom: 10em;
   margin-top: 5em;
+}
+
+.logo-space{
+  margin-bottom: 2em;
 }
 </style>
