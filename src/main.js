@@ -8,5 +8,14 @@ Vue.component('BaseButton', () => import('./components/BaseButton.vue')
 )
 new Vue({
   vuetify,
-  render: h => h(App)
+  data: () => ({
+    icons: [
+      'mdi-facebook',
+      'mdi-twitter',
+      'mdi-linkedin',
+      'mdi-instagram',
+    ],
+  }),
+  render: h => h(App),
+  
 }).$mount('#app')

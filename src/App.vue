@@ -4,6 +4,7 @@
     <hero-section></hero-section>
     <grid-section></grid-section>
     <article-section></article-section>
+    <footer-section></footer-section>
     
   </v-app>
 </template>
@@ -13,13 +14,15 @@ import TopNav from './components/TopNav.vue'
 import HeroSection from './components/HeroSection.vue'
 import GridSection from './components/GridSection.vue'
 import ArticleSection from './components/ArticleSection.vue'
+import FooterSection from './components/FooterSection'
 
 export default {
   components:{
     TopNav,
     HeroSection,
     GridSection,
-    ArticleSection
+    ArticleSection,
+    FooterSection
   }
   }
   
