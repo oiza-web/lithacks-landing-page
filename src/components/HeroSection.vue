@@ -1,5 +1,5 @@
 <template>
-<v-banner>
+<v-banner outlined>
   <div>
     <img src="../assets/pexels-christina-morillo-1181359.jpg" alt="">
     <div class="hero-text">
